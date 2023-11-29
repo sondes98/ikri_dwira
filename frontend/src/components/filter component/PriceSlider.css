@@ -1,0 +1,64 @@
+/* PriceSlider.css */
+
+.MuiSlider-thumb {
+    background-color: #D8BE96; /* Customize thumb color */
+  }
+  .MuiSlider-thumb:hover ::before {
+    background-color: #D8BE96; /* Customize thumb color */
+    box-shadow: "0px 0px 0px 8px #d8be9659";
+
+
+  }.MuiSlider-thumb:hover ::after {
+    background-color: #D8BE96; /* Customize thumb color */
+    box-shadow: "0px 0px 0px 8px #d8be9659";
+
+  }
+  
+  .MuiSlider-track {
+    background-color: #D8BE96; /* Customize track color */
+  }
+  
+  .MuiSlider-rail {
+    background-color: #D8BE96; /* Customize rail color */
+  }
+  .MuiSlider-root {
+    border-radius: 12px;
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    touch-action: none;
+    color: rgb(0 0 0 / .1) !important;
+    -webkit-tap-highlight-color: transparent;
+    height: 4px;
+    width: 100%;
+    padding: 13px 0;
+}
+.MuiSlider-root::after {
+  border-radius: 12px;
+  box-sizing: content-box;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  touch-action: none;
+  color: rgb(0 0 0 / .1) !important;
+  -webkit-tap-highlight-color: transparent;
+  height: 4px;
+  width: 100%;
+  padding: 13px 0;
+}
+.MuiSlider-root::before {
+  border-radius: 12px;
+  box-sizing: content-box;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  touch-action: none;
+  color: rgb(0 0 0 / .1) !important;
+  -webkit-tap-highlight-color: transparent;
+  height: 4px;
+  width: 100%;
+  padding: 13px 0;
+}
+  /* You can add additional styling for other elements if needed */
+  

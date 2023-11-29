@@ -1,0 +1,52 @@
+.s-f {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 430px;
+}
+.explore {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 287px;
+    height: 289px;
+    padding: 50px;
+
+
+}
+.contact {
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 385px;
+    height: 289px;
+    padding: 50px;
+}
+
+.f-tit {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-align: start;
+}
+.h-subtit{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-align:start;
+
+}

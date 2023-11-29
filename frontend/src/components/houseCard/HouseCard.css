@@ -1,0 +1,39 @@
+/* AnnounceCard.css */
+
+.announce-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.announce-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.announce-details {
+  padding: 10px;
+}
+
+.more-info-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #45a049;
+  }
+}
